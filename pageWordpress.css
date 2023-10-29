@@ -1,0 +1,337 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    height: 70%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg{
+    height: 30px;
+    width: 200px;
+}
+
+.nav{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download{
+    height: 50%;
+    width: 16%;
+    background-color:blue;
+    color: white;  
+    font-weight: 900; 
+    border: none;
+}
+
+.first-container{
+    height: 800px;
+    width: 100%;
+    background-color: #FEF9E7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left{
+    height: 75%;
+    width: 40%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bold{
+    color: blue;
+    font-weight: bold;
+    font-size:xX-large;
+}
+
+.into-left{
+    height: 25%; 
+    width: 70%;  
+    background-color: green; 
+    flex-direction: row; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+} 
+
+.onee{
+    height: 70px;
+    width: 62%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: blue;
+}
+
+.twoo{
+    height: 70px;
+    width: 62%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonone{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+a{
+    height: 65px;
+    width: 50%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;
+}
+
+.right{
+    height: 100%;
+    width: 40%;
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-flottant{
+    height: 20%;
+    width:30%;
+    background-color: black;
+}
+
+.two-flottant{
+    height: 20%;
+    width:30%;
+    background-color: black;
+}
+
+.three-flottant{
+    height: 20%;
+    width:30%;
+    background-color: black;
+}
+
+/*.into-right{
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(to right, violet, #FFFF00);
+    border-radius: 70px;
+}*/
+
+.longbande{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.into-longbande{
+    height: 28%;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.luminus{
+    height: 45%;
+    width: 13%;
+    display: flex;
+}
+
+.snapshot{
+    height: 45%;
+    width: 13%;
+    display: flex;
+}
+
+.wareless{
+    height: 50%;
+    width: 13%;
+    display: flex;
+}
+
+img{
+    height: 85%;
+    width: 95%;
+    color: gray;
+}
+
+.avant-footer{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our{
+    height: 1600px;
+    width: 100%;
+    background-color: #eaf6fa;
+}
+
+button{
+    height: 65px;
+    width: 200px;
+    background-color: white;
+    color: blue;
+    border: none;
+}
+
+button:hover{ 
+    background-color: wheat;
+}
+
+footer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one{
+    height: 75%;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rs{
+    height: 60px;
+    width: 80%;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.facebook{
+    height: 40px;
+    width: 20%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.tweeter{
+    height: 40px;
+    width: 20%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.snapchat{
+    height: 40px;
+    width: 20%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.pinterest{
+    height: 40px;
+    width: 20%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.youtube{
+    height: 40px;
+    width: 20%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.two{
+    height: 75%;
+    width: 15%;
+    background-color: blue;
+}
+
+.two h1 {
+    color: black;
+    font-size: xx-large;
+}
+
+.three{
+    height: 75%;
+    width: 15%;
+    background-color: blue;
+}
+
+.three h1{
+    color: black;
+    font-size: xx-large;
+}
+
+.four{
+    height: 250px;
+    width: 15%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four h1{
+    color: black;
+    font-size: xx-large;
+}
+
+.app-store{
+    height: 23%;
+    width: 90%;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0 , 0.5 );
+}
+
+.play-store{
+    height: 23%;
+    width: 90%;
+    background-color: rgb(10, 10, 82);
+    border-radius: 5px;
+}
